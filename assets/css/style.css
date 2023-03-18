@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: url("../images/image-01.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    text-align: center;
+    padding-top:10em;
+  }
+
+.content-arena {
+  margin: 3px 6px 9px 23px;
+}
+
+.stay-tuned {
+    font-family: 'Permanent Marker', cursive;
+    color: #cec8c8;
+}
+
+h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "'";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #888888,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+
+.caption-desc, .caption-desc a {
+    color: #B3B6B7;
+}
+
+.caption-desc a {
+  font-family: "Mukta", sans-serif !important;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+i {
+  padding: 0px 10px;
+}
+.wrapper i {
+  font-size: 2.4em;
+}
+
+.wrapper i:nth-child(1) {
+  color: #1DA1F2;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(2) {
+  color: #f21da0;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(3) {
+  color: #ffffff;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+.wrapper i:nth-child(4) {
+  color: #3700ff;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+.wrapper i:nth-child(4):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    height: 50px;
+  }
+}
